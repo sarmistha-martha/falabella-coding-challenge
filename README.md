@@ -7,10 +7,10 @@ But here's the catch: you can use only one `if`. No multiple branches, ternary
 operators or `else`.
 
 #to import any class using namespace add the same in compose.json and run autoload command which creates "vender" folder
-composer dumpautoload -o
+$composer dumpautoload -o
 
 #to add PHPUNIT run
-composer require --dev phpunit/phpunit ^7
+$composer require --dev phpunit/phpunit ^7
 
 #to run PHPUNIT
-phpunit --bootstrap vendor/autoload.php tests/app/model/ChallengeTest
+$phpunit --bootstrap vendor/autoload.php tests/app/model/ChallengeTest
